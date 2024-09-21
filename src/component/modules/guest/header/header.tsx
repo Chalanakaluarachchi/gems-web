@@ -101,13 +101,18 @@ const Header = () => {
           </button>
 
           {/* Cart Icon with item count */}
-          <button className="flex items-center space-x-2 px-4 py-2 border rounded-full bg-white text-pink-500 border-pink-500 hover:bg-pink-500 hover:text-white transition duration-300">
+          {/* Cart Icon with item count */}
+<div className="relative flex items-center px-4 py-2 border rounded-full bg-white text-black border-pink-500">
+ 
+  <span className="ml-2">Cart: 0 Items</span>
+  <button className="p-2 rounded-full bg-pink-100 text-pink-500 hover:bg-pink-500 hover:text-white transition duration-300">
             <FaShoppingCart />
-            <span>Cart: 0 Items</span>
-            <span className="relative">
-              <span className="absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full px-2">1</span>
-            </span>
           </button>
+  <span className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-red-500 text-white text-xs rounded-full px-2">
+    1
+  </span>
+</div>
+
         </div>
       </nav>
     </header>

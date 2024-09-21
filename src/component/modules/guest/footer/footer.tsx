@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGift } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -15,6 +16,7 @@ const Footer = () => {
             <p className="text-gray-500 text-sm">Shop with an expert</p>
           </div>
           <div className="flex-1 text-center">
+            <FaGift />
             <span className="font-bold text-pink-600">Gift Voucher</span>
             <p className="text-gray-500 text-sm">Refer a friend</p>
           </div>
