@@ -2,10 +2,9 @@
 "use client";
 import React, { useState } from 'react';
 import CategoryCard from './CategoryCard';
-
 const categories = [
   {
-    imageUrl: '/Gems.jpg',
+    imageUrl: '/assest/Gems.jpg',
     category: 'Category Name 1',
   },
   {
